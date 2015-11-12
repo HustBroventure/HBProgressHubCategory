@@ -13,10 +13,8 @@
 +(void)showMessage:(NSString*)message;
 +(void)showMessage:(NSString*)message inView:(UIView*)view;
     //显示成功信息，在window中显示
-+(void)showSuccess;
 +(void)showSuccessWithMessage:(NSString*)message inView:(UIView *)view;
     //显示失败信息，，在window中显示
-+(void)showError;
 +(void)showErrorWithMessage:(NSString*)message inView:(UIView *)view;
 
 +(void)showProgresssWithMessage:(NSString*)message;
@@ -28,6 +26,5 @@
 
 +(void)showAlertMessage:(NSString*)meaasge;
 
-+(void)showAccurateProgresssWithMessage:(NSString*)message inView:(UIView *)view;
 
 @end

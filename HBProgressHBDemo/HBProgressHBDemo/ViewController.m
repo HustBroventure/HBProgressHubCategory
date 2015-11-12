@@ -36,9 +36,6 @@
 }
 
 - (IBAction)showAlertMessage:(id)sender {
-//[HBCommonAlertMessage showAccurateProgresssWithMessage:@"哈哈哈" inView:self.view
-// ];
-
 
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     hud.labelText = @"哈哈哈";

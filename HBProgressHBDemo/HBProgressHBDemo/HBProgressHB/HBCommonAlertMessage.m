@@ -72,14 +72,6 @@
 
 }
 
-+(void)showAccurateProgresssWithMessage:(NSString*)message inView:(UIView *)view
-{
-    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
-    hud.labelText = message;
-    hud.mode = MBProgressHUDModeDeterminate;
-    hud.removeFromSuperViewOnHide = YES;
-    [hud showWhileExecuting:@selector(myTask) onTarget:self withObject:nil animated:YES];
 
-}
 
 @end
